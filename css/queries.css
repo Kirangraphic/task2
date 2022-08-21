@@ -1,0 +1,43 @@
+        @media only screen and (max-width:1200px) {
+            .hero-text h1 {
+                font-size: 42px;
+            }
+            .row {
+                padding: 0 4%;
+            }
+            .main-nav li {
+                padding-left: 30px;
+            }
+            .img img {
+                margin-top: 70px;
+            }
+            .footer-column input[type=text] {
+                width: 80%;
+            }
+        }
+        
+        @media only screen and (max-width: 1024px) {
+            .hero-text h1 {
+                font-size: 30px;
+            }
+            .hero-text h6 {
+                font-size: 12px;
+            }
+            .main-nav li {
+                padding-left: 10px;
+            }
+            .img {
+                padding: 0;
+            }
+            .hero-text p {
+                padding: 8px 0;
+                padding-bottom: 35px;
+            }
+            .img img {
+                margin-top: 142px;
+                width: 95%;
+            }
+            .row {
+                padding: 0px 6%;
+            }
+        }
